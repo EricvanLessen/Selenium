@@ -1,0 +1,35 @@
+1639877862888	geckodriver	INFO	Listening on 127.0.0.1:33271
+1639877862906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50473" "-no-remote" "-profile" "/tmp/rust_mozprofile9iD5d8"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1639877868615	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9iD5d8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50473/devtools/browser/14517c53-3e56-46fe-bd95-f41bb5e3262a
+1639877877561	Marionette	INFO	Listening on port 35495
+1639877877779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639877880256	Marionette	INFO	Stopped listening on port 35495
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639878173481	geckodriver	INFO	Listening on 127.0.0.1:43977
+1639878173498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43291" "-no-remote" "-profile" "/tmp/rust_mozprofilekaZgTA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1639878178632	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekaZgTA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43291/devtools/browser/817b26ac-c1d6-4dc0-aecd-7249e7e55ef9
+1639878186644	Marionette	INFO	Listening on port 46347
+1639878186739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.udemy.com/staticx/udemy/js/webpack/entry-main-modern-vendor.af8136b5b21c50cdcc51.js, line 2: Error: Request failed with status code 403
+JavaScript error: https://www.udemy.com/staticx/udemy/js/webpack/entry-main-modern-vendor.af8136b5b21c50cdcc51.js, line 2: Error: Request failed with status code 403
+JavaScript error: https://www.udemy.com/staticx/udemy/js/webpack/entry-main-modern-vendor.af8136b5b21c50cdcc51.js, line 2: Error: Request failed with status code 403
+JavaScript error: https://www.udemy.com/staticx/udemy/js/webpack/entry-main-modern-vendor.af8136b5b21c50cdcc51.js, line 2: Error: Request failed with status code 403
+1639878236065	Marionette	INFO	Stopped listening on port 46347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
