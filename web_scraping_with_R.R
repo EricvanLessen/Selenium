@@ -33,7 +33,7 @@ print(myCourseId)
 
 remDr %>% deleteSession
 
-zuschuss71Fan&
+
 # 
 # remDr %>% getPageSource() 
 # 
@@ -68,10 +68,9 @@ zuschuss71Fan&
 # 
 # 
 # remDr %>% findElement("name", "email") %>% 
-#   elementSendKeys("eric.vanlessen@live.de")
 # 
 # 
-#   # elementSendKeys("zuschuss71Fan&", key="enter") 
+#   # elementSendKeys("pw", key="enter") 
 # remDr %>% findElement("class", "udlite-avatar")
 # ?findElement
 # # https://stackoverflow.com/questions/43402237/r-waiting-for-page-to-load-in-rselenium-with-phantomjs
@@ -100,7 +99,7 @@ zuschuss71Fan&
 # remDr$navigate("http://www.google.com")
 # webElem <- remDr$findElement(using = "css", "[name = 'q']")
 # webElem
-# webElem$sendKeysToElement(list("eric.vanlessen@live.de", "\uE007"))
+# webElem$sendKeysToElement(list("mail", "\uE007"))
 # webElem <- remDr$findElement(using = "name", value = "q")
 # webElem$getElementAttribute("name")
 # webElem$getElementAttribute("class")
@@ -130,7 +129,7 @@ zuschuss71Fan&
 
 # send text to password input
 #webElem <- remDr$findElement("id", "id_password")
-#webElem$sendKeysToElement(list("zuschuss71Fan&"))
+#webElem$sendKeysToElement(list("pw"))
 
 # create a list to hold the titles for each page
 #titles <- list()
